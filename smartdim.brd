@@ -1634,11 +1634,11 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="Q1" library="transistor-power" package="SOT223" value="N-HEXFET-2D_SOT232-" x="28.575" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.21" y="7.747" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="29.21" y="7.747" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="U1" library="SparkFun-DigitalIC" package="SO08-EIAJ" value="Tiny85-20-SMT" x="9.525" y="3.175" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="IC-09092" x="9.525" y="3.175" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8.255" y="1.143" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="8.255" y="1.143" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="ICSP" library="Protofusion" package="POGOPROG-CONN-0H" value="POGOPIN-CONNWITHVIAS" x="15.24" y="5.08" smashed="yes" rot="R180"/>
 <element name="JP1" library="pinhead" package="1X02" value="" x="1.905" y="5.08" smashed="yes" rot="R270">
@@ -1649,7 +1649,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="SW1" library="dp_devices" package="SW_TACT_SMALL" value="" x="20.32" y="5.08" smashed="yes" rot="R90"/>
 <element name="C1" library="rcl" package="C0805" value="1uF" x="9.525" y="8.255" smashed="yes">
-<attribute name="NAME" x="11.43" y="6.985" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="7.62" y="9.525" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 </elements>
 <signals>
