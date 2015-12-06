@@ -176,6 +176,8 @@
 <text x="36.83" y="2.54" size="1.778" layer="21" font="vector" rot="R180">+</text>
 <text x="1.27" y="7.62" size="1.778" layer="21" font="vector">+</text>
 <text x="34.29" y="8.255" size="1.016" layer="21" font="vector">OUT</text>
+<text x="34.29" y="1.27" size="1.27" layer="22" font="vector" rot="MR0">smartdim osh-1</text>
+<rectangle x1="19.05" y1="1.27" x2="34.29" y2="2.54" layer="43"/>
 </plain>
 <libraries>
 <library name="transistor-power">
