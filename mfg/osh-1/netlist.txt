@@ -1,0 +1,43 @@
+Netlist
+
+Exported from smartdim.sch at 12/5/15 6:41 PM
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Net        Part     Pad      Pin        Sheet
+
++5V        C1       1        1          1
+           ICSP     6        VCC        1
+           JP1      1        1          1
+           JP2      1        1          1
+           U1       8        VCC        1
+
+GND        C1       2        2          1
+           ICSP     5        GND        1
+           JP1      2        2          1
+           Q1       2        D          1
+           Q1       4        D          1
+           SW1      3        3          1
+           SW1      4        4          1
+           U1       4        GND        1
+
+MISO       ICSP     3        MISO       1
+           U1       6        PB1(MISO)  1
+
+MOSI/PWM   ICSP     2        MOSI       1
+           Q1       1        G          1
+           U1       5        PB0(MOSI)  1
+
+NRES       ICSP     1        \RST       1
+           U1       1        PB5(NRES)  1
+
+PWM_VSS    JP2      2        2          1
+           Q1       3        S          1
+
+SCK        ICSP     4        SCK        1
+           U1       7        PB2(SCK/ADC1) 1
+
+USER_INPUT SW1      1        1          1
+           SW1      2        2          1
+           U1       2        PB3(ADC3)  1
+

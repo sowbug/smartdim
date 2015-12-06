@@ -1,0 +1,17 @@
+Partlist
+
+Exported from smartdim.sch at 12/5/15 6:41 PM
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                Device                Package          Library            Sheet
+
+C1       1uF                  C-USC0805             C0805            rcl                1
+ICSP     POGOPIN-CONNWITHVIAS POGOPIN-CONNWITHVIAS  POGOPROG-CONN-0H Protofusion        1
+JP1                           PINHD-1X2             1X02             pinhead            1
+JP2                           PINHD-1X2             1X02             pinhead            1
+Q1       N-HEXFET-2D_SOT232-  N-HEXFET-2D_SOT232-   SOT223           transistor-power   1
+SW1                           SW_TACT_4P            SW_TACT_SMALL    dp_devices         1
+U1       Tiny85-20-SMT        ATTINY45TINY85-20-SMT SO08-EIAJ        SparkFun-DigitalIC 1
