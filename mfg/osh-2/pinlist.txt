@@ -1,0 +1,43 @@
+Pinlist
+
+Exported from smartdim.sch at 12/21/15 9:12 PM
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Part     Pad      Pin        Dir      Net
+
+C1       1        1          pas      +5V
+         2        2          pas      GND
+
+ICSP     1        \RST       io       NRES
+         2        MOSI       io       MOSI/PWM
+         3        MISO       io       MISO
+         4        SCK        io       SCK
+         5        GND        io       GND
+         6        VCC        io       +5V
+
+JP1      1        1          pas      +5V
+         2        2          pas      GND
+
+JP2      1        1          pas      +5V
+         2        2          pas      PWM_VSS
+
+Q1       1        G          pas      MOSI/PWM
+         2        D          pas      PWM_VSS
+         3        S          pas      GND
+         4        D          pas      PWM_VSS
+
+SW1      1        1          pas      USER_INPUT
+         2        2          pas      USER_INPUT
+         3        3          pas      GND
+         4        4          pas      GND
+
+U1       1        PB5(NRES)  io       NRES
+         2        PB3(ADC3)  io       USER_INPUT
+         3        PB4(ADC2)  io                *** unconnected ***
+         4        GND        io       GND
+         5        PB0(MOSI)  io       MOSI/PWM
+         6        PB1(MISO)  io       MISO
+         7        PB2(SCK/ADC1) io       SCK
+         8        VCC        io       +5V
+
