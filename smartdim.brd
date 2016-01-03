@@ -1642,10 +1642,10 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="ICSP" library="Protofusion" package="POGOPROG-CONN-0H" value="POGOPIN-CONNWITHVIAS" x="15.24" y="5.08" smashed="yes" rot="R180"/>
 <element name="JP1" library="pinhead" package="1X02" value="IN" x="1.905" y="5.08" smashed="yes" rot="R270">
-<attribute name="VALUE" x="3.81" y="2.286" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="3.81" y="2.286" size="1.27" layer="21" font="vector" rot="R180"/>
 </element>
 <element name="JP2" library="pinhead" package="1X02" value="OUT" x="36.195" y="5.08" smashed="yes" rot="R90">
-<attribute name="VALUE" x="33.782" y="7.874" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="33.782" y="7.874" size="1.27" layer="21" font="vector"/>
 </element>
 <element name="SW1" library="dp_devices" package="SW_TACT_SMALL" value="USER" x="20.32" y="5.08" smashed="yes" rot="R90"/>
 <element name="C1" library="rcl" package="C0805" value="1uF" x="9.525" y="8.255" smashed="yes">
